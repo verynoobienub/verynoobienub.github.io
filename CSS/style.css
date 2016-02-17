@@ -1,0 +1,98 @@
+@import url(/fonts/stylesheet.min.css);
+/* line 28, /Users/yiwei.ting/Desktop/Work/Web Projects/MCILQuotes/CSS/style.scss */
+html {
+  height: 100%; }
+
+/* line 32, /Users/yiwei.ting/Desktop/Work/Web Projects/MCILQuotes/CSS/style.scss */
+body {
+  color: #202020;
+  font-size: 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  width: 100%; }
+
+/* line 43, /Users/yiwei.ting/Desktop/Work/Web Projects/MCILQuotes/CSS/style.scss */
+h1 {
+  font-family: "josefin_sanslight_italic", serif;
+  font-size: 6vw;
+  margin: 0 0 2vw 0; }
+  @media (max-width: 767px) {
+    /* line 43, /Users/yiwei.ting/Desktop/Work/Web Projects/MCILQuotes/CSS/style.scss */
+    h1 {
+      font-size: 8.75vw;
+      margin: 0 0 2.5vw 0; } }
+
+/* line 54, /Users/yiwei.ting/Desktop/Work/Web Projects/MCILQuotes/CSS/style.scss */
+button {
+  transition: background, 500ms, ease-in-out;
+  background: none;
+  display: block;
+  padding: 1.33333vw;
+  margin: 2vw 0 0 0;
+  font-size: 1.33333vw;
+  font-family: "existencelight", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  color: #202020;
+  border: 1px solid #202020;
+  cursor: pointer;
+  text-transform: uppercase; }
+  @media (max-width: 767px) {
+    /* line 54, /Users/yiwei.ting/Desktop/Work/Web Projects/MCILQuotes/CSS/style.scss */
+    button {
+      padding: 2.5vw;
+      font-size: 2.5vw; } }
+  /* line 72, /Users/yiwei.ting/Desktop/Work/Web Projects/MCILQuotes/CSS/style.scss */
+  button:hover {
+    transition: background, 500ms, ease-in-out;
+    background: #202020;
+    color: white; }
+  /* line 76, /Users/yiwei.ting/Desktop/Work/Web Projects/MCILQuotes/CSS/style.scss */
+  button:active {
+    position: relative;
+    top: 1px; }
+
+/* line 82, /Users/yiwei.ting/Desktop/Work/Web Projects/MCILQuotes/CSS/style.scss */
+#quoteContainer {
+  text-align: center;
+  height: 100%;
+  width: 75%;
+  padding: 4vw;
+  background: rgba(255, 255, 255, 0.2); }
+  @media (max-width: 767px) {
+    /* line 82, /Users/yiwei.ting/Desktop/Work/Web Projects/MCILQuotes/CSS/style.scss */
+    #quoteContainer {
+      width: 90%;
+      padding: 5vw 2.5vw; } }
+
+/* line 95, /Users/yiwei.ting/Desktop/Work/Web Projects/MCILQuotes/CSS/style.scss */
+#generateCTA {
+  margin: auto; }
+
+/* line 99, /Users/yiwei.ting/Desktop/Work/Web Projects/MCILQuotes/CSS/style.scss */
+#speaker {
+  display: block;
+  margin: 0 0 2vw 0;
+  text-align: right;
+  font-family: "josefin_sanslight_italic", serif;
+  font-size: 2.4vw; }
+  @media (max-width: 767px) {
+    /* line 99, /Users/yiwei.ting/Desktop/Work/Web Projects/MCILQuotes/CSS/style.scss */
+    #speaker {
+      font-size: 3vw; } }
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/* line 123, /Users/yiwei.ting/Desktop/Work/Web Projects/MCILQuotes/CSS/style.scss */
+.fade {
+  animation: fadeInOut 1500ms ease-in-out; }
+
+/*# sourceMappingURL=style.css.map */
