@@ -1,0 +1,242 @@
+@import url(/Fonts/stylesheet.min.css);
+/* line 37, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+html {
+  height: 100%; }
+
+/* line 41, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+body {
+  color: #202020;
+  font-size: 2vw;
+  font-family: "existencelight", Helvetica Neue, Helvetica, Arial, sans-serif;
+  height: 100%;
+  width: 100%; }
+
+/* line 49, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+h1 {
+  font-family: "josefin_sanslight_italic", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 6vw;
+  margin: 0 0 2vw 0; }
+  @media (max-width: 767px) {
+    /* line 49, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+    h1 {
+      font-size: 8.75vw;
+      margin: 0 0 2.5vw 0; } }
+
+/* line 59, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+h2 {
+  font-size: 4vw; }
+  @media (max-width: 767px) {
+    /* line 59, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+    h2 {
+      font-size: 6.25vw; } }
+
+/* line 66, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+a {
+  transition: opacity, 500ms, ease-in-out;
+  opacity: 1;
+  font-family: "josefin_sansregular";
+  font-size: 1.14286vw;
+  text-decoration: underline;
+  text-transform: uppercase;
+  cursor: pointer;
+  cursor: hand; }
+  /* line 74, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+  a:link {
+    color: #202020; }
+  /* line 77, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+  a:visited {
+    color: #202020; }
+  /* line 80, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+  a:hover {
+    transition: opacity, 500ms, ease-in-out;
+    opacity: 0.3; }
+  @media (max-width: 767px) {
+    /* line 66, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+    a {
+      font-size: 3.125vw; } }
+
+/* line 88, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+button {
+  transition: background, 500ms, ease-in-out;
+  background: none;
+  display: block;
+  padding: 1.33333vw;
+  margin: 2vw 0 0 0;
+  font-size: 1.33333vw;
+  font-family: "existencelight", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  color: #202020;
+  border: 1px solid #202020;
+  cursor: pointer;
+  text-transform: uppercase; }
+  @media (max-width: 767px) {
+    /* line 88, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+    button {
+      padding: 2.5vw;
+      font-size: 4.375vw; } }
+  /* line 104, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+  button:hover {
+    transition: background, 500ms, ease-in-out;
+    background: #202020;
+    color: white; }
+  /* line 108, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+  button:active {
+    position: relative;
+    top: 1px;
+    border: none; }
+
+/* line 115, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100%; }
+
+/* line 124, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+#URLContainer {
+  padding: 1vw;
+  right: 0;
+  top: 0;
+  position: fixed; }
+  @media (max-width: 767px) {
+    /* line 124, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+    #URLContainer {
+      padding: 2.5vw; } }
+
+/* line 134, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+#quoteContainer {
+  text-align: center;
+  height: 100%;
+  width: 75%;
+  padding: 4vw;
+  background: rgba(255, 255, 255, 0.2); }
+  @media (max-width: 767px) {
+    /* line 134, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+    #quoteContainer {
+      width: 90%;
+      padding: 5vw 2.5vw; } }
+
+/* line 146, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+#generateCTA {
+  margin: auto; }
+
+/* line 150, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+#speaker {
+  display: block;
+  margin: 0 0 2vw 0;
+  text-align: right;
+  font-family: "josefin_sanslight_italic", Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 2.4vw; }
+  @media (max-width: 767px) {
+    /* line 150, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+    #speaker {
+      font-size: 3.75vw; } }
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes load {
+  0% {
+    background: #da3e52;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.3);
+    width: 0; }
+  90% {
+    width: 100%; }
+  100% {
+    width: 100%;
+    opacity: 0; } }
+
+/* line 199, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+.fade {
+  animation: fadeInOut 1500ms ease-in-out; }
+
+/* line 203, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+.fadeIn {
+  animation: fadeIn 1000ms ease-in-out; }
+
+/* line 207, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+.loading {
+  animation: load 1250ms ease-in-out; }
+
+/* line 211, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+#loadingBar {
+  position: fixed;
+  height: 2px;
+  top: 0;
+  z-index: 999; }
+
+/* line 218, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+#navbar {
+  display: block;
+  position: fixed;
+  top: 0;
+  width: 97%;
+  background: rgba(255, 255, 255, 0.85);
+  font-family: "josefin_sansregular";
+  padding: 1.5%;
+  box-shadow: 0px 3px 5px 1px rgba(0, 0, 0, 0.3);
+  z-index: 998; }
+  @media (max-width: 767px) {
+    /* line 218, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+    #navbar {
+      width: 95%;
+      padding: 2.5%; } }
+
+/* line 234, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+#blur {
+  display: block;
+  width: 100%;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px); }
+
+/* line 244, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+#quoteList {
+  display: flex;
+  flex-direction: column;
+  width: 100%; }
+
+/* line 250, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+.quoteItem {
+  width: 98%;
+  padding: 2vw 1%;
+  border-bottom: 1px solid rgba(36, 36, 36, 0.2); }
+  @media (max-width: 767px) {
+    /* line 250, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+    .quoteItem {
+      width: 95%;
+      padding: 2.5vw 2.5%; } }
+  /* line 258, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+  .quoteItem .quote {
+    font-family: "josefin_sanslight_italic", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 3vw; }
+    @media (max-width: 767px) {
+      /* line 258, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+      .quoteItem .quote {
+        font-size: 5vw; } }
+  /* line 265, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+  .quoteItem .speaker {
+    font-family: "josefin_sanslight_italic", Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 2vw;
+    text-align: right; }
+    @media (max-width: 767px) {
+      /* line 265, /Users/yiwei.ting/Desktop/Work/Web Projects/verynoobienub.github.io/CSS/style.scss */
+      .quoteItem .speaker {
+        font-size: 3.75vw; } }
+
+/*# sourceMappingURL=style.css.map */
